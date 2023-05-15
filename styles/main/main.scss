@@ -1,0 +1,121 @@
+@import "../blocks/header";
+@import "../blocks/bodyMain";
+@import "../blocks/footer";
+
+
+*  {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #1264A9;
+    text-decoration: none;
+    
+}
+
+.a-grey {
+    color: grey;
+}
+
+
+
+.b-h1 {
+    font-size: 50px;
+
+}
+
+.b-h2 {
+    font-size: 40px;
+
+    &--greenBackgr {
+        background-color: greenyellow;
+    }
+
+}
+
+.b-h--grey {
+    color: grey;
+}
+
+.b-h--white {
+    color: white;
+}
+
+.b-h3 {
+    font-size: 25px;
+    color: white;
+
+    &--black {
+        color: black;
+    }
+
+}
+
+.b-h4 {
+
+    font-size: 20px;
+    &--orange {
+        color: orangered;
+    }
+    &--white {
+        color: white;
+    }
+}
+
+.b-text {
+
+    &--bold {
+        font-weight: bold;
+    }
+}
+
+.b-icon {
+    width: 18px;
+    height: 100%;
+
+    &--bigger {
+    width: 86px;
+
+    }
+
+    &--biggest {
+        width: 100px;
+    
+        }
+
+    &__Arrow {
+
+        &--rotate {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+
+.b-moveDots {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    padding: 20px 0px 0px;
+
+    &__dot {
+        background-color: grey;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+
+        &:hover {
+        background-color: purple;
+
+        }
+    }
+    
+}

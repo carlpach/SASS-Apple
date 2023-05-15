@@ -1,0 +1,534 @@
+.b-header {
+  background-color: #f5f5f7;
+}
+.b-header__navProducts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+.b-header__navProducts__item:hover {
+  font-weight: bold;
+}
+.b-header__banner {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  font-size: 15px;
+}
+.b-header__banner__text {
+  display: flex;
+}
+
+.b-sectionProducts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 5% 20px 5%;
+}
+.b-sectionProducts__item {
+  text-align: center;
+}
+.b-sectionProducts__item__img {
+  height: 50px;
+  margin: 10px 0;
+}
+
+.b-sectionBannerPresentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  padding: 100px 20%;
+  text-align: center;
+}
+
+.b-button {
+  color: black;
+  display: flex;
+  background-color: white;
+  margin: 20px;
+  padding: 7px 13px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  gap: 4px;
+}
+.b-button--blue {
+  background-color: blue;
+  color: white;
+}
+
+.b-sectionBannerNuevo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: #000000;
+  padding: 100px 20% 0px 20%;
+  margin: 10px 0;
+  text-align: center;
+}
+.b-sectionBannerNuevo__buttonAnchor {
+  display: flex;
+  align-items: center;
+}
+
+.b-sectionElegir {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 100px 20% 0px 20%;
+  margin: 20px 0;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+.b-sectionElegir__tabs {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 12px 0px;
+  border-bottom: 1px solid rgb(192, 192, 192);
+  position: relative;
+}
+.b-sectionElegir__tabs__item:after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  left: 0;
+  bottom: -1px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.b-sectionElegir__tabla {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+.b-sectionElegir__tabla__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.b-sectionElegir__tabla__item__link {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  margin: 50px;
+  position: relative;
+}
+.b-sectionElegir__tabla__item__link:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -20px;
+  border-bottom: 1px solid rgb(112, 112, 112);
+}
+.b-sectionElegir__tabla__item__iconWithImage {
+  margin: 30px 0px;
+}
+
+.b-sectionAccesorios {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 20px;
+  margin: 0px 20px;
+}
+.b-sectionAccesorios__boxImg {
+  width: 100%;
+  height: 600px;
+  padding: 60px 50px 0 50px;
+  background-color: #f2f2f2;
+  background-image: url("https://www.apple.com/v/mac/home/bs/images/overview/retail/accessories_tile__cybkm8f034uq_medium.jpg");
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.b-sectionAccesorios__boxImg__grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  position: absolute;
+  left: 0;
+  margin: 74px;
+  grid-gap: 17px;
+}
+.b-sectionAccesorios__boxImg__grid__item {
+  background-image: url("https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/27/93/7c/27937c84-fa6a-fc9f-b1e5-e78bb5fc24c0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/454x454.jpg");
+}
+.b-sectionAccesorios__boxImg--otherImage {
+  background-image: url("https://www.apple.com/v/mac/home/bs/images/overview/retail/trade_in_mac_tile__d67bvlqow1ua_large.jpg");
+}
+.b-sectionAccesorios__boxImg--otherImage2 {
+  background-color: #fafafa;
+  background-image: url("https://www.apple.com/euro/mac/home/p/screens_alt/images/overview/mdt/mdt_family__gkejyxsh4p26_large.jpg");
+}
+.b-sectionAccesorios__boxImg--otherImage3 {
+  background-color: #fafafa;
+  background-image: url("https://www.apple.com/euro/mac/home/p/screens_alt/images/overview/get-more/apple-pay/apple_pay__9nvboo37kn6y_large.jpg");
+}
+
+.b-sectionTitle {
+  text-align: center;
+  padding: 100px 25%;
+}
+
+.b-sectionEnvioFinanc {
+  padding: 60px 10px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 40px;
+}
+
+.b-sectionFullWidth {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 20px 20px;
+  background-color: #fbfbfb;
+  width: 100%;
+  height: 400px;
+  padding: 60px 40px 0 40px;
+  background-image: url("https://www.apple.com/euro/mac/home/p/screens_alt/images/overview/ventura/macos_ventura__muyk5ifz9wqm_large.jpg");
+  background-size: 60%;
+  background-position-y: bottom;
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+.b-sectionFullWidth--otherImgBck {
+  background-image: url("https://www.apple.com/es/mac/home/images/overview/get-more/apple-gift-card/apple_gift_card_tile__d777mr3okcom_large.jpg");
+}
+.b-sectionFullWidth__text {
+  width: 40%;
+  text-align: center;
+}
+
+.b-sectionAppsIntegradas {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 20px 20px;
+  padding: 50px 22%;
+  background-color: #fbfbfb;
+  align-items: center;
+  text-align: center;
+}
+.b-sectionAppsIntegradas__icons {
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+  position: relative;
+}
+.b-sectionAppsIntegradas__icons:after {
+  content: "";
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  bottom: -13px;
+  border-bottom: 1px solid rgb(179, 177, 177);
+}
+.b-sectionAppsIntegradas__icons__items {
+  position: relative;
+  text-align: center;
+}
+.b-sectionAppsIntegradas__icons__items:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  bottom: -13px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  z-index: 1;
+}
+.b-sectionAppsIntegradas__img {
+  padding: 40px 0;
+  width: 90%;
+  position: relative;
+}
+.b-sectionAppsIntegradas__img--line:after {
+  content: "xxx";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  z-index: 1;
+}
+.b-sectionAppsIntegradas__playstore {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.b-sectionAppsIntegradas__playstore__text {
+  text-align: start;
+}
+
+.b-sectionappleServices {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  margin: 20px 20px;
+  padding: 100px 20%;
+  background-color: #fbfbfb;
+}
+.b-sectionappleServices__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.b-sectionTV {
+  position: relative;
+  margin: 30px 0;
+}
+.b-sectionTV__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: black;
+  color: white;
+  padding: 40px 30%;
+  text-align: center;
+}
+.b-sectionTV__text__links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.b-sectionTV__icon {
+  position: absolute;
+  width: 40px;
+  top: 142px;
+  left: 96%;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  z-index: 1;
+}
+.b-sectionTV__carrousel {
+  background-color: aqua;
+  font-size: 40px;
+  width: 100%;
+  height: 200px;
+}
+
+.b-sectionFullWidth-GiftCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 20px 20px;
+  background-color: #fbfbfb;
+  width: 100%;
+  height: 400px;
+  padding: 60px 40px 0 40px;
+  background-image: url("https://www.apple.com/es/mac/home/images/overview/get-more/apple-gift-card/apple_gift_card_tile__d777mr3okcom_large.jpg");
+  background-size: 60%;
+  background-position-y: bottom;
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+.b-sectionFullWidth-GiftCard__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 40%;
+  text-align: center;
+}
+
+.b-sectionAppleAtWork {
+  color: white;
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-image: url("https://www.apple.com/v/mac/home/bs/images/overview/get-more/business__dhhbnntkcwuq_large.jpg");
+  height: 500px;
+  background-position: center;
+}
+.b-sectionAppleAtWork--EduImage {
+  background-image: url("https://www.apple.com/v/mac/home/bs/images/overview/get-more/education__bq047y5fu7n6_large.jpg");
+}
+.b-sectionAppleAtWork .a-white {
+  color: white;
+}
+
+.b-footer {
+  background-color: #f5f5f7;
+  padding: 30px 0;
+}
+
+.b-condiciones {
+  margin: 0px 20%;
+  font-size: 13px;
+  color: grey;
+  position: relative;
+}
+.b-condiciones__item {
+  margin: 15px 0;
+}
+.b-condiciones:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -30px;
+  border-bottom: 1px solid grey;
+}
+
+.b-titleMac {
+  margin: 40px 20% 5px 20%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.b-directory {
+  margin: 0px 20% 20px 20%;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: flex-start;
+}
+.b-directory__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.b-footer-info {
+  font-size: 12px;
+  margin: 0px 20% 20px 20%;
+}
+.b-footer-info__contact {
+  position: relative;
+}
+.b-footer-info__contact:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+  border-bottom: 1px solid grey;
+}
+.b-footer-info__copyright {
+  margin: 25px 0 0px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.b-footer-info__lastMenu {
+  margin: 10px 0;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #1264A9;
+  text-decoration: none;
+}
+
+.a-grey {
+  color: grey;
+}
+
+.b-h1 {
+  font-size: 50px;
+}
+
+.b-h2 {
+  font-size: 40px;
+}
+.b-h2--greenBackgr {
+  background-color: greenyellow;
+}
+
+.b-h--grey {
+  color: grey;
+}
+
+.b-h--white {
+  color: white;
+}
+
+.b-h3 {
+  font-size: 25px;
+  color: white;
+}
+.b-h3--black {
+  color: black;
+}
+
+.b-h4 {
+  font-size: 20px;
+}
+.b-h4--orange {
+  color: orangered;
+}
+.b-h4--white {
+  color: white;
+}
+
+.b-text--bold {
+  font-weight: bold;
+}
+
+.b-icon {
+  width: 18px;
+  height: 100%;
+}
+.b-icon--bigger {
+  width: 86px;
+}
+.b-icon--biggest {
+  width: 100px;
+}
+.b-icon__Arrow--rotate {
+  transform: rotate(180deg);
+}
+
+.b-moveDots {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  padding: 20px 0px 0px;
+}
+.b-moveDots__dot {
+  background-color: grey;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.b-moveDots__dot:hover {
+  background-color: purple;
+}/*# sourceMappingURL=main.css.map */
