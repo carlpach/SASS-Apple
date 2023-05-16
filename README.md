@@ -1,3 +1,3 @@
 # SASS-Apple
 
-Desktop first
+AVISO!! La pàgina esta disenada Desktop first, (ancho 1400px)
